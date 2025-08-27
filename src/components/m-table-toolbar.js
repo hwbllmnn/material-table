@@ -442,7 +442,7 @@ MTableToolbar.propTypes = {
 
 export const styles = (theme) => ({
   root: {
-    paddingRight: theme.spacing(1),
+    // paddingRight: theme.spacing(1),
   },
   highlight:
     theme.palette.mode === "light"
