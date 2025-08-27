@@ -756,7 +756,7 @@ export default class MaterialTable extends React.Component {
                   selectRoot: props.classes.paginationSelectRoot,
                 }}
                 style={{
-                  float: props.theme.direction === "rtl" ? "" : "right",
+                  float: "right",
                   overflowX: "auto",
                 }}
                 colSpan={3}
